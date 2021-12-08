@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    background-image: url(/images/cryptocurrency-coding-digital-blue-background-open-source-blockchain-concept.jpg);
+    background-repeat: no-repeat;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgb(242, 157, 10);
+    width: 100%;
+}
+
+.logoSearch {
+    margin-top: 0%;
+    margin-left: 12%;
+    margin-right: 12%;
+    margin-bottom: 0%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+input[type=search] {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    background: #f2f2f2 url(https://static.tumblr.com/ftv85bp/MIXmud4tx/search-icon.png) no-repeat 9px center;
+    border: solid 2px rgb(255, 255, 255);
+    padding: 9px 10px 9px 32px;
+    width: 155px;
+    border-radius: 20px;
+    transition: all .7s;
+}
+
+input[type=search]:focus {
+    width: 300px;
+    background-color: #fff;
+    border-color: #060707;
+}
+
+ul {
+    padding: 0;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 0%;
+    margin-bottom: 1.5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+ul li {
+    list-style: none;
+}
+
+ul li a {
+    font-family: 'Recursive', sans-serif;
+    font-size: 25px;
+    text-align: center;
+    color: rgb(249, 246, 220);
+    text-decoration: none;
+}
+
+ul li a:hover {
+    color: rgb(62, 160, 190);
+}
+
+.backgroundTitle {
+    margin-left: 12%;
+    margin-right: 12%;
+    display: flex;
+    justify-content: center;
+    margin-top: 8%;
+    color: rgb(62, 160, 190);
+    font-size: 40px;
+    font-family: 'Rampart One', cursive;
+    background-color: rgb(255, 255, 255);
+    border-bottom: 7px solid rgb(242, 157, 10);
+    border-radius: 20px;
+}
+
+h1 {
+    margin: 0;
+}
