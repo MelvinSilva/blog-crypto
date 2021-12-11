@@ -5,18 +5,17 @@ body {
 }
 
 header {
+    margin: auto;
     background-image: url(/images/gradient-navy-blue-digital-grid-wallpaper.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     position: sticky;
     top: 0;
-    display: flex;
-    justify-content: space-between;
     width: 100%;
     height: 80px;
 }
 
-.logoSearch {
+.logo-nav-search {
     margin: auto;
     width: 85%;
     display: flex;
@@ -38,8 +37,8 @@ input[type=search] {
 
 input[type=search]:focus {
     width: 300px;
-    background-color: #fff;
-    border-color: #060707;
+    background-color: rgb(219, 246, 255);
+    border-color: rgb(0, 0, 0);
 }
 
 .navbar {
@@ -50,7 +49,7 @@ input[type=search]:focus {
 ul {
     padding: 0;
     margin: auto;
-    width: 70%;
+    width: 100%;
     margin-top: 0%;
     display: flex;
     flex-direction: row;
@@ -62,7 +61,7 @@ ul li {
 }
 
 ul li a {
-    padding: 45px;
+    padding: 20px;
     font-family: 'Recursive', sans-serif;
     font-size: 20px;
     text-align: center;
@@ -81,7 +80,8 @@ ul li a:hover {
 
 h1 {
     margin: auto;
-    background-color: rgb(242, 157, 10);
+    margin-top: 1%;
+    background-color: rgb(91, 172, 201);
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
@@ -92,42 +92,40 @@ h1 {
     font-family: 'Maven Pro', sans-serif;
     width: 100%;
     height: 100px;
-    border-top: 7px solid rgb(12, 118, 163);
 }
 
 span {
-    color: rgb(46, 130, 167);
+    color: rgb(230, 191, 62);
 }
 
-.containerPrincipal {
+.container-principal {
     display: flex;
     flex-direction: column;
     margin: auto;
     width: 75%;
 }
 
-.liveBanniere {
+.live-banniere {
     margin-top: 0px;
 }
 
 h3 {
-    width: 26%;
+    color: rgb(255, 255, 255);
     font-size: 30px;
     margin-bottom: 2px;
     margin-bottom: 5px;
     font-family: 'Recursive', sans-serif;
-    border-top: 5px solid rgb(242, 157, 10);
+    border-top: 5px solid rgb(143, 183, 197);
 }
 
 .container-article {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .left-article {
-    border-radius: 20px;
-    width: 80%;
+    width: 78%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -137,19 +135,28 @@ h3 {
 .right-article {
     display: flex;
     justify-content: right;
-    width: 18%;
+    width: 22%;
+    flex-wrap: wrap;
 }
 
-.article1 {
+.article {
+    margin-bottom: 10px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     width: 32.7%;
     height: 300px;
     background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+}
+
+.article:hover {
+    border: 3px solid rgb(255, 207, 15);
+    transform: scale(1.01) translateY(-3px);
 }
 
 .image1 {
+    border-radius: 5px;
     background-image: url(https://cryptoast.fr/wp-content/uploads/2021/12/rapport-assemblee-nationale-difficultes-secteur-actifs-numeriques-france.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -167,16 +174,8 @@ h3 {
     padding-left: 10px;
 }
 
-.article2 {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 32.7%;
-    height: 300px;
-    background-color: rgb(255, 255, 255);
-}
-
 .image2 {
+    border-radius: 5px;
     background-image: url(https://cryptoast.fr/wp-content/uploads/2021/12/dominance-bitcoin-chute-altcoins.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -194,16 +193,8 @@ h3 {
     padding-left: 10px;
 }
 
-.article3 {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 32.7%;
-    height: 300px;
-    background-color: rgb(255, 255, 255);
-}
-
 .image3 {
+    border-radius: 5px;
     background-image: url(https://cryptoast.fr/wp-content/uploads/2021/12/marque-luxe-balmain-initiatives-nfts-1.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -221,17 +212,8 @@ h3 {
     padding-left: 10px;
 }
 
-.article4 {
-    margin-top: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 32.7%;
-    height: 300px;
-    background-color: rgb(255, 255, 255);
-}
-
 .image4 {
+    border-radius: 5px;
     background-image: url(https://cryptoast.fr/wp-content/uploads/2021/12/rapport-assemblee-nationale-difficultes-secteur-actifs-numeriques-france.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -249,17 +231,8 @@ h3 {
     padding-left: 10px;
 }
 
-.article5 {
-    margin-top: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 32.7%;
-    height: 300px;
-    background-color: rgb(255, 255, 255);
-}
-
 .image5 {
+    border-radius: 5px;
     background-image: url(https://cryptoast.fr/wp-content/uploads/2021/12/rapport-assemblee-nationale-difficultes-secteur-actifs-numeriques-france.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -277,17 +250,8 @@ h3 {
     padding-left: 10px;
 }
 
-.article6 {
-    margin-top: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 32.7%;
-    height: 300px;
-    background-color: rgb(255, 255, 255);
-}
-
 .image6 {
+    border-radius: 5px;
     background-image: url(https://cryptoast.fr/wp-content/uploads/2021/12/rapport-assemblee-nationale-difficultes-secteur-actifs-numeriques-france.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -304,3 +268,218 @@ h3 {
     font-family: 'Recursive', sans-serif;
     padding-left: 10px;
 }
+
+
+/******************** PAGE 2 CRYPTOMONNAIES *********************/
+
+.container-crypto {
+    margin-top: 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgba(91, 172, 201, 0.461);
+    border-radius: 20px;
+}
+
+.title-crypto img {
+    display: block;
+    padding-top: 10px;
+    margin: auto;
+}
+
+h2 {
+    font-size: 20px;
+    color: rgb(42, 138, 173);
+    border-bottom: 2px solid rgb(180, 189, 192);
+    text-align: center;
+}
+
+.bitcoin {
+    margin: 2% 10% 0% 10%;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.ethereum {
+    margin: 2% 10% 0% 10%;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.chainlink {
+    margin: 2% 10% 0% 10%;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.dogecoin {
+    margin: 2% 10% 2% 10%;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.bitcoin p {
+    font-family: 'Dosis', sans-serif;
+    font-size: 25px;
+    margin: 0% 5% 2% 5%;
+    text-align: justify;
+}
+
+.ethereum p {
+    font-family: 'Dosis', sans-serif;
+    font-size: 25px;
+    margin: 0% 5% 2% 5%;
+    text-align: justify;
+}
+
+.chainlink p {
+    font-family: 'Dosis', sans-serif;
+    font-size: 25px;
+    margin: 0% 5% 2% 5%;
+    text-align: justify;
+}
+
+.dogecoin p {
+    font-family: 'Dosis', sans-serif;
+    font-size: 25px;
+    margin: 0% 5% 2% 5%;
+    text-align: justify;
+}
+
+
+/******************** PAGE 3 ACHAT BITCOIN FORMULAIRE *********************/
+
+.container-buycrypto {
+    margin-top: 1%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(91, 172, 201, 0.461);
+    border-radius: 20px;
+}
+
+.card {
+    border: 2px solid rgb(36, 73, 87);
+    margin: 2% 10% 2% 10%;
+    border-radius: 20px;
+    background: white;
+    box-shadow: 4px 3px 20px #3535358c;
+    display: flex;
+    flex-direction: row;
+}
+
+.leftcard {
+    background-color: rgb(238, 193, 10);
+    width: 450px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.rightscard {
+    background-color: #ffffff;
+    width: 550px;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+    padding: 10px 20px 30px 30px;
+}
+
+.rightscard p {
+    display: block;
+    font-size: 15px;
+    font-weight: 300;
+    margin: 5px 0px;
+    font-family: 'Dosis', sans-serif;
+}
+
+h4 {
+    margin: 0 0 20px 0;
+    color: rgb(238, 193, 10);
+    font-size: 20px;
+    font-family: 'Dosis', sans-serif;
+}
+
+h5 {
+    margin: 0 0 10px 0;
+    color: rgb(131, 131, 131);
+    font-size: 15px;
+    font-family: 'Dosis', sans-serif;
+}
+
+.inputbox {
+    color: #030303;
+    width: 100%;
+    border: 2px solid rgb(242, 242, 242);
+    padding: 3px;
+    border-bottom: 2px solid rgb(223, 223, 223);
+    margin-bottom: 10px;
+    font-family: 'Roboto', sans-serif;
+    color: #615a5a;
+    font-size: 15px;
+    outline: none;
+    border-radius: 10px;
+}
+
+.expiration-ccv p {
+    display: block;
+    font-size: 15px;
+    margin: 10px;
+}
+
+.expiration-ccv {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+.expcvv_text {
+    padding-right: 15px;
+}
+
+.expcvv_text2 {
+    padding: 0 10px;
+}
+
+.button {
+    background-color: rgb(91, 172, 201);
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-weight: 400;
+    font-size: 1.2rem;
+    margin-top: 10px;
+    width: 100%;
+    letter-spacing: .11rem;
+    outline: none;
+}
+
+.button:hover {
+    transform: scale(1.05) translateY(-3px);
+    box-shadow: 3px 3px 6px #38373785;
+}
+
+@media only screen and (max-width: 1000px) {
+    .card {
+        flex-direction: column;
+        width: auto;
+    }
+    .leftcard {
+        width: 100%;
+        border-top-right-radius: 0;
+        border-bottom-left-radius: 0;
+        border-top-right-radius: 0;
+        border-radius: 0;
+    }
+    .rightscard {
+        width: auto;
+        border-bottom-left-radius: 1.5rem;
+        padding: 0.5rem 3rem 3rem 2rem;
+        border-radius: 0;
+    }
+}
+
+
+/*********************** PAGE 4 VIDEOS ********************/

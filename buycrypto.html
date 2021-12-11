@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Recursive&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Road+Rage&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo-nav-search">
+
+            <div class="logo"><img src="/images/bitcoin_PNG39 (1).png" alt="logo" width=""></div>
+            <div class="navbar">
+                <ul>
+                    <li><a href="index.html">ACCUEIL</a></li>
+                    <li><a href="cryptomo.html">CRYPTOMONNAIES</a></li>
+                    <li><a href="buycrypto.html">ACHAT BITCOIN</a></li>
+                    <li><a href="#">VIDEOS</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                </ul>
+            </div>
+
+            <div class="searchbar"><input type="search" onkeyup="search_crypto()" type="text" name="Recherche" placeholder="Rechercher une crypto...">
+            </div>
+        </div>
+    </header>
+    <div class="container-principal">
+        <h1> Acheter du Bitcoin</h1>
+
+        <div class="container-buycrypto">
+            <!-- <img src="https://image.freepik.com/free-vector/purple-background-with-neon-frame_52683-34124.jpg"  class="bgimg " alt="">-->
+            <div class="card">
+                <div class="leftcard">
+                    <img src="https://www.achat-bitcoin.fr/wp-content/uploads/2013/06/achat-bitcoin.png" width="400" height="400" class="image-bictoin" alt="Image Bitcoin" />
+                </div>
+                <div class="rightscard">
+                    <h4>Acheter du Bictoin par carte bancaire</h4>
+                    <h5>Information de paiement</h5>
+                    <form action="">
+                        <p>Nom sur la carte</p>
+                        <input type="text" class="inputbox" name="name" required />
+                        <p>Numéro de carte</p>
+                        <input type="number" class="inputbox" name="card_number" id="card_number" required />
+
+                        <p>Type de carte</p>
+                        <select class="inputbox" name="card_type" id="card_type" required>
+                      <option value="">--Selectionner votre type carte--</option>
+                      <option value="MasterCard">Carte Bleue</option>
+                      <option value="Visa">Visa</option>
+                      <option value="RuPay">American Express</option>
+                      <option value="MasterCard">MasterCard</option>
+                    </select>
+                        <div class="expiration-ccv">
+
+                            <p class="expcvv_text">Date d'expiration</p>
+                            <input type="date" class="inputbox" name="exp_date" id="exp_date" required />
+
+                            <p class="expcvv_text2">CVV</p>
+                            <input type="password" class="inputbox" name="cvv" id="cvv" required />
+                        </div>
+                        <p></p>
+                        <button type="submit" class="button">Confirmer</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+</body>
+
+</html>
