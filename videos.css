@@ -166,7 +166,7 @@ main#carousel {
 input[type="radio"] {
     width: 2.15em;
     height: 2.15em;
-    font-size: 16px;
+    font-size: 1px;
 }
 
 input:nth-of-type(1) {
