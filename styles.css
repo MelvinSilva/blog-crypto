@@ -483,3 +483,120 @@ h5 {
 
 
 /*********************** PAGE 4 VIDEOS ********************/
+
+.container-videos {
+    margin-top: 1%;
+    display: grid;
+    grid-template-rows: 500px 60px;
+    grid-template-columns: 1fr 50px 50px 50px 50px 50px 1fr;
+    align-items: center;
+    justify-items: center;
+    background-color: rgba(91, 172, 201, 0.461);
+    border-radius: 20px;
+}
+
+main#carousel {
+    grid-row: 1 / 2;
+    grid-column: 1 / 8;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    transform-style: preserve-3d;
+    perspective: 700px;
+    --items: 5;
+    --middle: 3;
+    --position: 1;
+    pointer-events: none;
+}
+
+.item:hover {
+    transform: scale(1.2) translateY(-3px);
+}
+
+.item {
+    border: 5px solid rgb(250, 201, 4);
+    border-radius: 5px;
+    position: absolute;
+    width: 560px;
+    height: 315px;
+    --r: calc(var(--position) - var(--offset));
+    --abs: max(calc(var(--r) * -1), var(--r));
+    transition: all 0.45s linear;
+    transform: rotateY(calc(-8deg * var(--r))) translateX(calc(-300px * var(--r)));
+    z-index: calc((var(--position) - var(--abs)));
+    pointer-events: all;
+}
+
+.item:nth-of-type(1) {
+    --offset: 1;
+}
+
+.item:nth-of-type(2) {
+    --offset: 2;
+}
+
+.item:nth-of-type(3) {
+    --offset: 3;
+}
+
+.item:nth-of-type(4) {
+    --offset: 4;
+}
+
+.item:nth-of-type(5) {
+    --offset: 5;
+}
+
+input[type="radio"] {
+    width: 2.15em;
+    height: 2.15em;
+    font-size: 17px;
+}
+
+input:nth-of-type(1) {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+}
+
+input:nth-of-type(1):checked~main#carousel {
+    --position: 1;
+}
+
+input:nth-of-type(2) {
+    grid-column: 3 / 4;
+    grid-row: 2 / 3;
+}
+
+input:nth-of-type(2):checked~main#carousel {
+    --position: 2;
+}
+
+input:nth-of-type(3) {
+    grid-column: 4 /5;
+    grid-row: 2 / 3;
+}
+
+input:nth-of-type(3):checked~main#carousel {
+    --position: 3;
+}
+
+input:nth-of-type(4) {
+    grid-column: 5 / 6;
+    grid-row: 2 / 3;
+}
+
+input:nth-of-type(4):checked~main#carousel {
+    --position: 4;
+}
+
+input:nth-of-type(5) {
+    grid-column: 6 / 7;
+    grid-row: 2 / 3;
+}
+
+input:nth-of-type(5):checked~main#carousel {
+    --position: 5;
+}
