@@ -151,8 +151,8 @@ h3 {
 }
 
 .article:hover {
-    border: 3px solid rgb(255, 207, 15);
-    transform: scale(1.01) translateY(-3px);
+    border: 4px solid rgb(250, 201, 4);
+    cursor: pointer;
 }
 
 .image1 {
@@ -359,7 +359,7 @@ h2 {
 }
 
 .card {
-    border: 2px solid rgb(36, 73, 87);
+    border: 2px solid rgb(250, 201, 4);
     margin: 2% 10% 2% 10%;
     border-radius: 20px;
     background: white;

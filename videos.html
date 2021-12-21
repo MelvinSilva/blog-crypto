@@ -11,16 +11,51 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Road+Rage&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="videos.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 
 <body>
+    <header>
+        <div class="logo-nav-search">
 
+            <div class="logo"><img src="/images/bitcoin_PNG39 (1).png" alt="logo" width=""></div>
+            <div class="navbar">
+                <ul>
+                    <li><a href="index.html">ACCUEIL</a></li>
+                    <li><a href="cryptomo.html">CRYPTOMONNAIES</a></li>
+                    <li><a href="buycrypto.html">ACHAT BITCOIN</a></li>
+                    <li><a href="videos.html">VIDEOS</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                </ul>
+            </div>
 
+            <div class="searchbar"><input type="search" onkeyup="search_crypto()" type="text" name="Recherche" placeholder="Rechercher une crypto...">
+            </div>
+        </div>
+    </header>
+    <div class="container-principal">
+        <h1>Videos sur les cryptomonnaies</h1>
 
+        <div class="container-videos">
+            <input type="radio" name="position" checked />
+            <input type="radio" name="position" />
+            <input type="radio" name="position" />
+            <input type="radio" name="position" />
+            <input type="radio" name="position" />
+            <main id="carousel">
+                <div class="item"><iframe width="700" height="395" src="https://www.youtube.com/embed/AATamTcqueo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                <div class="item"><iframe width="700" height="395" src="https://www.youtube.com/embed/89L22vEl74Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                <div class="item"><iframe width="700" height="395" src="https://www.youtube.com/embed/2Bon9f0SYBM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                <div class="item"><iframe width="700" height="395" src="https://www.youtube.com/embed/sQWFhT2kFOA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                <div class="item"><iframe width="700" height="395" src="https://www.youtube.com/embed/P1OwRIKurqQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+            </main>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 
 </html>
