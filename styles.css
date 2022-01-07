@@ -9,7 +9,7 @@
                                                                                                                             
                                                                                                                             header {
                                                                                                                                 margin: auto;
-                                                                                                                                background: rgb(31, 49, 77);
+                                                                                                                                background: rgb(230, 191, 62);
                                                                                                                                 position: sticky;
                                                                                                                                 top: 0;
                                                                                                                             }
@@ -64,7 +64,7 @@
                                                                                                                             }
                                                                                                                             
                                                                                                                             ul li a:hover {
-                                                                                                                                color: rgb(242, 157, 10);
+                                                                                                                                color: rgb(0, 0, 0);
                                                                                                                             }
                                                                                                                             
                                                                                                                             .title {
@@ -74,8 +74,8 @@
                                                                                                                             
                                                                                                                             h1 {
                                                                                                                                 margin: auto;
-                                                                                                                                margin-top: 1%;
-                                                                                                                                background-color: rgb(91, 172, 201);
+                                                                                                                                margin-top: 2%;
+                                                                                                                                background-color: rgb(15, 98, 128);
                                                                                                                                 background-size: cover;
                                                                                                                                 background-repeat: no-repeat;
                                                                                                                                 display: flex;
@@ -271,7 +271,7 @@
                                                                                                                                 display: flex;
                                                                                                                                 flex-direction: column;
                                                                                                                                 justify-content: space-between;
-                                                                                                                                background-color: rgba(91, 172, 201, 0.164);
+                                                                                                                                background-color: rgba(15, 98, 128, 0.397);
                                                                                                                                 border: 1px solid rgba(91, 172, 201, 0.767);
                                                                                                                                 border-radius: 20px;
                                                                                                                             }
@@ -352,7 +352,7 @@
                                                                                                                                 display: flex;
                                                                                                                                 justify-content: center;
                                                                                                                                 flex-direction: column;
-                                                                                                                                background-color: rgba(91, 172, 201, 0.164);
+                                                                                                                                background-color: rgba(15, 98, 128, 0.397);
                                                                                                                                 border: 1px solid rgba(91, 172, 201, 0.767);
                                                                                                                                 border-radius: 20px;
                                                                                                                             }
@@ -492,7 +492,7 @@
                                                                                                                                 grid-template-columns: 1fr 50px 50px 50px 50px 50px 1fr;
                                                                                                                                 align-items: center;
                                                                                                                                 justify-items: center;
-                                                                                                                                background-color: rgba(91, 172, 201, 0.164);
+                                                                                                                                background-color: rgba(15, 98, 128, 0.397);
                                                                                                                                 border: 1px solid rgba(91, 172, 201, 0.767);
                                                                                                                                 border-radius: 20px;
                                                                                                                             }
@@ -604,17 +604,29 @@
                                                                                                                             }
                                                                                                                             /**** NEWLETTER ****/
                                                                                                                             
+                                                                                                                            .container-newsletter h6 {
+                                                                                                                                margin-top: 30px;
+                                                                                                                                display: flex;
+                                                                                                                                justify-content: center;
+                                                                                                                                color: rgb(254, 254, 254);
+                                                                                                                                font-size: 35px;
+                                                                                                                                font-family: 'Maven Pro', sans-serif;
+                                                                                                                                background-color: rgb(15, 98, 128);
+                                                                                                                                margin-bottom: 0%;
+                                                                                                                                margin-left: 32%;
+                                                                                                                                margin-right: 32%;
+                                                                                                                            }
+                                                                                                                            
                                                                                                                             .container {
                                                                                                                                 min-height: 50vh;
                                                                                                                                 display: flex;
                                                                                                                                 align-items: center;
                                                                                                                                 justify-content: center;
-                                                                                                                                background: rgba(91, 172, 201, 0.892);
                                                                                                                             }
                                                                                                                             
                                                                                                                             .container .cardnews {
-                                                                                                                                height: 300px;
-                                                                                                                                width: 500px;
+                                                                                                                                height: 250px;
+                                                                                                                                width: 400px;
                                                                                                                                 background: #eee;
                                                                                                                                 box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
                                                                                                                                 position: relative;
@@ -624,10 +636,10 @@
                                                                                                                             
                                                                                                                             .container .cardnews .letter form {
                                                                                                                                 box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
-                                                                                                                                background: #fff;
+                                                                                                                                background: rgb(255, 255, 255);
                                                                                                                                 border-radius: 5px;
                                                                                                                                 position: absolute;
-                                                                                                                                top: 15px;
+                                                                                                                                top: 0px;
                                                                                                                                 left: 50%;
                                                                                                                                 transform: translateX(-50%);
                                                                                                                                 text-align: center;
@@ -637,8 +649,8 @@
                                                                                                                             }
                                                                                                                             
                                                                                                                             .container .cardnews .letter form img {
-                                                                                                                                height: 100px;
-                                                                                                                                width: 350px;
+                                                                                                                                height: 50px;
+                                                                                                                                width: 150px;
                                                                                                                                 margin: 5px 0;
                                                                                                                                 object-fit: cover;
                                                                                                                             }
@@ -690,7 +702,7 @@
                                                                                                                             }
                                                                                                                             
                                                                                                                             .container .cardnews::before {
-                                                                                                                                background: #fcc029;
+                                                                                                                                background: rgb(15, 98, 128);
                                                                                                                                 clip-path: polygon(50% 50%, 100% 0, 100% 100%, 0 100%, 0 0);
                                                                                                                             }
                                                                                                                             
@@ -728,8 +740,8 @@
                                                                                                                             
                                                                                                                             .footer-distributed {
                                                                                                                                 bottom: 0;
-                                                                                                                                margin-top: 20px;
-                                                                                                                                background: rgb(31, 49, 77);
+                                                                                                                                margin-top: 10px;
+                                                                                                                                background: rgb(230, 191, 62);
                                                                                                                                 box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
                                                                                                                                 box-sizing: border-box;
                                                                                                                                 width: 100%;
@@ -752,7 +764,7 @@
                                                                                                                             }
                                                                                                                             
                                                                                                                             .footer-distributed h3 span {
-                                                                                                                                color: #5383d3;
+                                                                                                                                color: rgb(91, 172, 201);
                                                                                                                             }
                                                                                                                             /* Footer links */
                                                                                                                             
@@ -818,7 +830,7 @@
                                                                                                                                 display: block;
                                                                                                                                 border-radius: 3px;
                                                                                                                                 box-sizing: border-box;
-                                                                                                                                background-color: #1f2022;
+                                                                                                                                background-color: #eeeeee;
                                                                                                                                 box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.1);
                                                                                                                                 border: none;
                                                                                                                                 resize: none;
