@@ -144,6 +144,10 @@
                                                                                                                                 border-radius: 5px;
                                                                                                                             }
                                                                                                                             
+                                                                                                                            a {
+                                                                                                                                text-decoration: none;
+                                                                                                                            }
+                                                                                                                            
                                                                                                                             .article:hover {
                                                                                                                                 border: 2px solid rgb(255, 255, 255);
                                                                                                                             }
@@ -267,6 +271,67 @@
                                                                                                                                 text-align: center;
                                                                                                                                 padding: 20px 10px 20px 10px;
                                                                                                                             }
+                                                                                                                            
+                                                                                                                            .image7 {
+                                                                                                                                border-radius: 5px;
+                                                                                                                                background-image: url(https://journalducoin-com.exactdn.com/app/uploads/2022/01/CoursBTC-2021-1-1.jpg?strip=all&lossy=1&quality=66&ssl=1&fit=2332,1312);
+                                                                                                                                background-size: cover;
+                                                                                                                                background-repeat: no-repeat;
+                                                                                                                                height: 50%;
+                                                                                                                            }
+                                                                                                                            
+                                                                                                                            .text7 {
+                                                                                                                                height: 50%;
+                                                                                                                            }
+                                                                                                                            
+                                                                                                                            .text7 p {
+                                                                                                                                font-size: 15px;
+                                                                                                                                color: rgb(0, 0, 0);
+                                                                                                                                font-family: 'Recursive', sans-serif;
+                                                                                                                                text-align: center;
+                                                                                                                                padding: 20px 10px 10px 10px;
+                                                                                                                            }
+                                                                                                                            
+                                                                                                                            .image8 {
+                                                                                                                                border-radius: 5px;
+                                                                                                                                background-image: url(https://journalducoin-com.exactdn.com/app/uploads/2021/09/binance-dollar.jpg?strip=all&lossy=1&quality=66&ssl=1&fit=2332,1312);
+                                                                                                                                background-size: cover;
+                                                                                                                                background-repeat: no-repeat;
+                                                                                                                                height: 50%;
+                                                                                                                            }
+                                                                                                                            
+                                                                                                                            .text8 {
+                                                                                                                                height: 50%;
+                                                                                                                            }
+                                                                                                                            
+                                                                                                                            .text8 p {
+                                                                                                                                font-size: 15px;
+                                                                                                                                color: rgb(0, 0, 0);
+                                                                                                                                font-family: 'Recursive', sans-serif;
+                                                                                                                                text-align: center;
+                                                                                                                                padding: 20px 10px 10px 10px;
+                                                                                                                            }
+                                                                                                                            /******************** PAGE ARTICLE CLICK ************************/
+                                                                                                                            
+                                                                                                                            .article-clik {
+                                                                                                                                margin: 3% 3% 3% 3%;
+                                                                                                                                background-color: white;
+                                                                                                                                border-radius: 20px;
+                                                                                                                            }
+                                                                                                                            
+                                                                                                                            .article-clik p {
+                                                                                                                                font-family: 'Dosis', sans-serif;
+                                                                                                                                font-size: 25px;
+                                                                                                                                margin: 0% 5% 2% 5%;
+                                                                                                                                text-align: justify;
+                                                                                                                            }
+                                                                                                                            
+                                                                                                                            .article-crypto img {
+                                                                                                                                border-radius: 20px;
+                                                                                                                                display: block;
+                                                                                                                                padding-top: 10px;
+                                                                                                                                margin: auto;
+                                                                                                                            }
                                                                                                                             /******************** PAGE 2 CRYPTOMONNAIES *********************/
                                                                                                                             /******************** PAGE 2 CRYPTOMONNAIES *********************/
                                                                                                                             /******************** PAGE 2 CRYPTOMONNAIES *********************/
@@ -296,25 +361,25 @@
                                                                                                                             }
                                                                                                                             
                                                                                                                             .bitcoin {
-                                                                                                                                margin: 2% 10% 0% 10%;
+                                                                                                                                margin: 2% 8% 0% 8%;
                                                                                                                                 background-color: white;
                                                                                                                                 border-radius: 20px;
                                                                                                                             }
                                                                                                                             
                                                                                                                             .ethereum {
-                                                                                                                                margin: 2% 10% 0% 10%;
+                                                                                                                                margin: 2% 8% 0% 8%;
                                                                                                                                 background-color: white;
                                                                                                                                 border-radius: 20px;
                                                                                                                             }
                                                                                                                             
                                                                                                                             .chainlink {
-                                                                                                                                margin: 2% 10% 0% 10%;
+                                                                                                                                margin: 2% 8% 0% 8%;
                                                                                                                                 background-color: white;
                                                                                                                                 border-radius: 20px;
                                                                                                                             }
                                                                                                                             
                                                                                                                             .dogecoin {
-                                                                                                                                margin: 2% 10% 2% 10%;
+                                                                                                                                margin: 2% 8% 2% 8%;
                                                                                                                                 background-color: white;
                                                                                                                                 border-radius: 20px;
                                                                                                                             }
@@ -513,10 +578,6 @@
                                                                                                                                 --middle: 3;
                                                                                                                                 --position: 1;
                                                                                                                                 pointer-events: none;
-                                                                                                                            }
-                                                                                                                            
-                                                                                                                            .item:hover {
-                                                                                                                                transform: scale(1.2) translateY(-3px);
                                                                                                                             }
                                                                                                                             
                                                                                                                             .item {
@@ -719,7 +780,7 @@
                                                                                                                             
                                                                                                                             .container .cardnews:hover::after {
                                                                                                                                 transform: rotateX(180deg);
-                                                                                                                                transition-delay: .0s;
+                                                                                                                                transition-delay: .7s;
                                                                                                                                 z-index: -2;
                                                                                                                             }
                                                                                                                             
@@ -730,7 +791,7 @@
                                                                                                                             }
                                                                                                                             
                                                                                                                             .container .cardnews:hover {
-                                                                                                                                transform: translateY(70px);
+                                                                                                                                transform: translateY(20px);
                                                                                                                             }
                                                                                                                             /****************************** FOOTER ***************************************/
                                                                                                                             /****************************** FOOTER ***************************************/
@@ -879,7 +940,7 @@
                                                                                                                             }
                                                                                                                             /* If you don't want the footer to be responsive, remove these media queries */
                                                                                                                             
-                                                                                                                            @media (max-width: 1000px) {
+                                                                                                                            @media (max-width: 1200px) {
                                                                                                                                 .footer-distributed {
                                                                                                                                     font: bold 14px sans-serif;
                                                                                                                                 }
@@ -898,6 +959,7 @@
                                                                                                                             @media (max-width: 800px) {
                                                                                                                                 .footer-distributed {
                                                                                                                                     padding: 30px;
+                                                                                                                                    text-align: center;
                                                                                                                                 }
                                                                                                                                 .footer-distributed .footer-left,
                                                                                                                                 .footer-distributed .footer-right {
@@ -910,9 +972,10 @@
                                                                                                                                 }
                                                                                                                                 .footer-distributed form {
                                                                                                                                     margin-top: 30px;
+                                                                                                                                    text-align: center;
                                                                                                                                 }
                                                                                                                                 .footer-distributed form {
-                                                                                                                                    display: block;
+                                                                                                                                    text-align: center;
                                                                                                                                 }
                                                                                                                                 .footer-distributed form button {
                                                                                                                                     float: none;
@@ -1005,11 +1068,66 @@
                                                                                                                                 .image6 {
                                                                                                                                     background-size: cover;
                                                                                                                                 }
+                                                                                                                                h3 {
+                                                                                                                                    text-align: center;
+                                                                                                                                }
+                                                                                                                            }
+                                                                                                                            
+                                                                                                                            @media only screen and (max-width: 1220px) {
+                                                                                                                                .article-crypto img {
+                                                                                                                                    width: 500px;
+                                                                                                                                    font-size: 23px;
+                                                                                                                                }
+                                                                                                                                .article-clik p {
+                                                                                                                                    font-size: 23px;
+                                                                                                                                }
+                                                                                                                            }
+                                                                                                                            
+                                                                                                                            @media only screen and (max-width: 693px) {
+                                                                                                                                .article-crypto img {
+                                                                                                                                    width: 400px;
+                                                                                                                                }
+                                                                                                                                .article-clik p {
+                                                                                                                                    font-size: 18px;
+                                                                                                                                }
+                                                                                                                            }
+                                                                                                                            
+                                                                                                                            @media only screen and (max-width: 550px) {
+                                                                                                                                .article-crypto img {
+                                                                                                                                    width: 300px;
+                                                                                                                                }
+                                                                                                                                .article-clik p {
+                                                                                                                                    font-size: 14px;
+                                                                                                                                }
+                                                                                                                            }
+                                                                                                                            
+                                                                                                                            @media only screen and (max-width: 430px) {
+                                                                                                                                .article-crypto img {
+                                                                                                                                    width: 200px;
+                                                                                                                                }
+                                                                                                                            }
+                                                                                                                            
+                                                                                                                            @media only screen and (max-width: 420px) {
+                                                                                                                                .article {
+                                                                                                                                    width: 320px;
+                                                                                                                                }
+                                                                                                                                .image1,
+                                                                                                                                .image2,
+                                                                                                                                .image3,
+                                                                                                                                .image4,
+                                                                                                                                .image5,
+                                                                                                                                .image6 {
+                                                                                                                                    background-size: cover;
+                                                                                                                                }
+                                                                                                                                h3 {
+                                                                                                                                    font-size: 20px;
+                                                                                                                                    text-align: center;
+                                                                                                                                }
                                                                                                                             }
                                                                                                                             
                                                                                                                             @media only screen and (max-width: 660px) {
                                                                                                                                 h1 {
-                                                                                                                                    font-size: 25px;
+                                                                                                                                    font-size: 35px;
                                                                                                                                 }
                                                                                                                             }
                                                                                                                             
@@ -1022,9 +1140,34 @@
                                                                                                                                 }
                                                                                                                             }
                                                                                                                             
+                                                                                                                            @media only screen and (max-width: 510px) {
+                                                                                                                                h1 {
+                                                                                                                                    font-size: 27px;
+                                                                                                                                }
+                                                                                                                            }
+                                                                                                                            
                                                                                                                             @media only screen and (max-width: 400px) {
                                                                                                                                 h1 {
-                                                                                                                                    font-size: 20px;
+                                                                                                                                    font-size: 22px;
+                                                                                                                                }
+                                                                                                                            }
+                                                                                                                            
+                                                                                                                            @media only screen and (max-width: 1334px) {
+                                                                                                                                h6 {
+                                                                                                                                    font-size: 27px;
+                                                                                                                                }
+                                                                                                                            }
+                                                                                                                            
+                                                                                                                            @media only screen and (max-width: 1040px) {
+                                                                                                                                h6 {
+                                                                                                                                    font-size: 22px;
+                                                                                                                                }
+                                                                                                                            }
+                                                                                                                            
+                                                                                                                            @media only screen and (max-width: 860px) {
+                                                                                                                                h6 {
+                                                                                                                                    font-size: 17px;
+                                                                                                                                    text-align: center;
                                                                                                                                 }
                                                                                                                             }
                                                                                                                             
@@ -1052,3 +1195,8 @@
                                                                                                                                     height: 200px;
                                                                                                                                 }
                                                                                                                             }
+                                                                                                                            /* @media only screen and (min-width: 1800px) {
+                                                                                                                                .article{
+                                                                                                                                    display: none;
+                                                                                                                                }
+                                                                                                                            } */

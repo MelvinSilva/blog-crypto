@@ -1,4 +1,4 @@
-const link = document.querySelector("#link")
+const link = document.getElementById("link")
 
 
 function age() {
