@@ -25,3 +25,40 @@ link.addEventListener("click", () => {
     age()
 
 })
+
+
+
+const createNewCard = (image, description) => {
+    const newArticle = document.createElement("div")
+    newArticle.classList.add("article")
+
+
+
+    const imgArticle = document.createElement("img")
+    imgArticle.classList.add("image1")
+    imgArticle.src = image
+    newArticle.appendChild(imgArticle)
+
+    const descriptionArticle = document.createElement("p")
+    descriptionArticle.classList.add("text1")
+    descriptionArticle.innerHTML = description
+    newArticle.appendChild(descriptionArticle)
+
+
+
+    return newArticle
+
+}
+
+const handleSubmit = (event) => {
+    event.preventDefault()
+
+    const formImg = document.querySelector("#image").value
+    const formDescription = document.querySelector("#text").value
+    const projectNewArticle = createNewCard(formImg, formDescription)
+    document.querySelector(".left-article").appendChild(projectNewArticle)
+
+    document.querySelector("#text").value = ""
+    document.querySelector("#image").value = ""
+
+}

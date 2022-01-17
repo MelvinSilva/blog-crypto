@@ -162,6 +162,10 @@
                                                                                                                             
                                                                                                                             .text1 {
                                                                                                                                 height: 50%;
+                                                                                                                                font-size: 15px;
+                                                                                                                                color: rgb(0, 0, 0);
+                                                                                                                                font-family: 'Recursive', sans-serif;
+                                                                                                                                text-align: center;
                                                                                                                             }
                                                                                                                             
                                                                                                                             .text1 p {
@@ -764,11 +768,14 @@
                                                                                                                                 height: 100%;
                                                                                                                                 width: 100%;
                                                                                                                             }
+                                                                                                                            /* enveloppe bleu passage souris */
                                                                                                                             
                                                                                                                             .container .cardnews::before {
                                                                                                                                 background: rgb(15, 98, 128);
                                                                                                                                 clip-path: polygon(50% 50%, 100% 0, 100% 100%, 0 100%, 0 0);
+                                                                                                                                /* clip path = creation figure enveloppe */
                                                                                                                             }
+                                                                                                                            /* ouverture enveloppe blanche apres */
                                                                                                                             
                                                                                                                             .container .cardnews::after {
                                                                                                                                 background: rgb(252, 252, 252);
@@ -785,7 +792,7 @@
                                                                                                                             }
                                                                                                                             
                                                                                                                             .container .cardnews:hover .letter form {
-                                                                                                                                top: -195px;
+                                                                                                                                top: -180px;
                                                                                                                                 transition: top .2s linear;
                                                                                                                                 transition-delay: .3s;
                                                                                                                             }
@@ -811,12 +818,10 @@
                                                                                                                                 overflow: hidden;
                                                                                                                                 z-index: 100;
                                                                                                                             }
-                                                                                                                            /* Footer left */
                                                                                                                             
                                                                                                                             .footer-distributed .footer-left {
                                                                                                                                 float: left;
                                                                                                                             }
-                                                                                                                            /* The company logo */
                                                                                                                             
                                                                                                                             .footer-distributed h3 {
                                                                                                                                 color: #ffffff;
@@ -827,7 +832,6 @@
                                                                                                                             .footer-distributed h3 span {
                                                                                                                                 color: rgb(15, 98, 128);
                                                                                                                             }
-                                                                                                                            /* Footer links */
                                                                                                                             
                                                                                                                             .footer-distributed .footer-links {
                                                                                                                                 color: #ffffff;
@@ -850,7 +854,6 @@
                                                                                                                                 color: #ffffff;
                                                                                                                                 font-size: 14px;
                                                                                                                             }
-                                                                                                                            /* Footer social icons */
                                                                                                                             
                                                                                                                             .footer-distributed .footer-icons {
                                                                                                                                 margin-bottom: 0px;
@@ -869,7 +872,6 @@
                                                                                                                                 line-height: 48px;
                                                                                                                                 margin-right: 3px;
                                                                                                                             }
-                                                                                                                            /* Footer Right */
                                                                                                                             
                                                                                                                             .footer-distributed .footer-right {
                                                                                                                                 float: right;
@@ -882,7 +884,6 @@
                                                                                                                                 color: #ffffff;
                                                                                                                                 font-size: 20px;
                                                                                                                             }
-                                                                                                                            /* The contact form */
                                                                                                                             
                                                                                                                             .footer-distributed form {
                                                                                                                                 display: inline-block;

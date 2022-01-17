@@ -54,7 +54,9 @@
                 <a href="article-crypto.html">
                     <div class="article">
 
-                        <div class="image1"></div>
+
+                        <div class="image1">
+                        </div>
                         <div class="text1">
                             <p>ETHEREUM SOUS-ÉVALUÉ ? POURQUOI ETH POURRAIT DÉFINITIVEMENT SUR-PERFORMER BITCOIN</p>
                         </div>
@@ -118,10 +120,23 @@
                         </div>
                     </div>
                 </a>
+
             </div>
             <div class="right-article">
                 <a href="https://binance.com"><img src="https://media0.giphy.com/media/2Uth7xNGHmV4X5TfqH/giphy.gif?cid=790b7611ee237aeb34de2a1e4fde3e061e6e19691651d751&rid=giphy.gif&ct=g" width="200" height="400" frameBorder="0"></a>
             </div>
+            <form onsubmit="handleSubmit(event)">
+                <div>
+                    <label for="name">Ajouter une image</label>
+                    <input type="text" id="image" name="image">
+                </div>
+                <div>
+                    <label for="name">Ajouter une description</label>
+                    <input type="text" id="text" name="text">
+                </div>
+
+                <input type="submit" value="Ajouter un article">
+            </form>
         </div>
 
     </section>
